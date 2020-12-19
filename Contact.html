@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+	<title>CONTACT US</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X=UA=Compatible" content="ei=edge">
+	<link rel="stylesheet" type="text/css" href="Contact.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!------header------->
+	<nav>
+		<div id="logo">
+			<a href="Home.html">JMJ LTD</a>
+		</div>
+		<ul class="nav-links">
+			<li><a href="Home.html">Home</a><li>
+			<li><a href="Services.html">Services</a><li>
+			<li><a href="AboutUs.html">About Us</a><li>
+			<li><a href="Contact.html">Contact Us</a><li>
+		</ul>
+	</nav>
+
+<!-------content----->
+
+	<div class="container">
+		<div class="contact-box">
+			<form action="/action_page.php" onsubmit="myFunction()">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Name">
+				<input type="text" class="field" placeholder="Email address">
+				<input type="text" class="field" placeholder="Phone Number">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</form>
+		
+			<script>
+				function myFunction() {
+					alert ("Your message was successfully sent!");
+					}
+			</script>
+		</div>  
+	</div>
+	
+<!------footer---->
+<footer>
+
+	<p> Copyright 2020 | JMJ LTD </p>
+
+</footer>
+
+</body>
+</html>
